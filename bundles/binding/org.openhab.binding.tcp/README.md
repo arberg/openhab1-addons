@@ -116,3 +116,4 @@ The TCP binding may exhaust the memory and/or use up the CPU by trying to rebind
 
 An alternative solution to using the TCP Binding may be to use MQTT.  See [JGluch's example](https://community.openhab.org/t/solved-optoma-beamer-via-rs232-over-tcp-ip-connector/38719/10) on the community forum.
 
+Another alternative solution is to use the [serial plugin](https://www.openhab.org/addons/bindings/serial1/) and an virtual serial-tcp localhost server using socat, see Forum post [Forwarding of serial and USB ports over the network to openHAB](https://community.openhab.org/t/forwarding-of-serial-and-usb-ports-over-the-network-to-openhab/46597)
